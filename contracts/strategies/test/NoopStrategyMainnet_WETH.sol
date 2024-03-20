@@ -3,7 +3,7 @@ pragma solidity 0.6.12;
 
 import "../../base/noop/NoopStrategyUpgradeable.sol";
 
-contract NoopStrategyMainnet_iFARM is NoopStrategyUpgradeable {
+contract NoopStrategyMainnet_WETH is NoopStrategyUpgradeable {
 
   constructor() public {}
 
@@ -11,7 +11,7 @@ contract NoopStrategyMainnet_iFARM is NoopStrategyUpgradeable {
     address _storage,
     address _vault
   ) public initializer {
-    address underlying = address(0x20c9F9633396298b618c2EaC35c1b9746380700A);
+    address underlying = address(0x4300000000000000000000000000000000000004);
     NoopStrategyUpgradeable.initializeBaseStrategy(
       _storage,
       underlying,

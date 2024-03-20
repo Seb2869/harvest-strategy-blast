@@ -7,7 +7,7 @@ import "../interface/IVaultFactory.sol";
 import "../../inheritance/OwnableWhitelist.sol";
 
 contract RegularVaultFactory is OwnableWhitelist, IVaultFactory {
-  address public vaultImplementation = 0x0000000000000000000000000000000000000000;
+  address public vaultImplementation = 0x47cAB26Cf72D969bE2af365F23D62d2056ECE1Cf;
   address public lastDeployedAddress = address(0);
 
   function deploy(address _storage, address underlying) override external onlyWhitelisted returns (address) {

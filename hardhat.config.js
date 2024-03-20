@@ -20,12 +20,12 @@ module.exports = {
       },
       chainId: 81457,
       forking: {
-        url: `https://blast.blockpi.network/v1/rpc/public`,
+        url: `https://blast.din.dev/rpc`,
         // blockNumber: 79985280, // <-- edit here
       },
     },
     mainnet: {
-      url: `https://blast.blockpi.network/v1/rpc/public`,
+      url: `https://blast.din.dev/rpc`,
       accounts: {
         mnemonic: secret.mnemonic,
       },
